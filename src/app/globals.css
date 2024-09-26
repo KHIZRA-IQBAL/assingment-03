@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ul:hover{
+   color:burlywood ;
+}
+
+li::after{
+  content: " 🔥";
+}
+
+button:hover{
+  color: aquamarine;
+}
